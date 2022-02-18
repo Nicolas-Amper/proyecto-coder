@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
@@ -17,7 +18,7 @@
                     <li class="nav-item"> <a href="zapatos.html">Zapatos</a> </li>
                     <li class="nav-item"> <a href="tops.html">Tops</a> </li>
                     <li class="nav-item"> <a href="bikinis.html">Bikinis</a> </li>
-                    <li class="nav-item"> <a href="carrito.html">Carrito</a> </li>
+                    <li class="nav-item"> <a href="carrito.html">Carrito</a><span class="badge bg-danger">¡Proximamente!</span> </li>
                 </ul>
             </nav>
 
@@ -31,22 +32,94 @@
 <!--INICIO MAIN-->
 
     <main>
-        <div>
-           <img src="../medios/one.svg" alt="Foto 1">
-           <div>
-               <p>PRECIO</p>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, blanditiis rem id iusto voluptate, facere in perferendis quas quibusdam nobis cupiditate numquam nemo accusantium, nam voluptatibus delectus qui quae esse?
-               Quasi, veniam? Impedit perferendis modi dolorem, quibusdam mollitia delectus velit, tempora corrupti in consectetur itaque corporis praesentium similique adipisci ipsam a ratione. Possimus velit distinctio cum quam iure, quibusdam quis?</p>
-           </div> 
-        </div>
-        <div>
-            <img src="../medios/two.svg" alt="Foto 1">
-            <div>
-                <p>PRECIO</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, blanditiis rem id iusto voluptate, facere in perferendis quas quibusdam nobis cupiditate numquam nemo accusantium, nam voluptatibus delectus qui quae esse?
-                Quasi, veniam? Impedit perferendis modi dolorem, quibusdam mollitia delectus velit, tempora corrupti in consectetur itaque corporis praesentium similique adipisci ipsam a ratione. Possimus velit distinctio cum quam iure, quibusdam quis?</p>
-            </div> 
-         </div>
+        <nav class="row p-4">
+            <div id="list-example" class="list-group col-4">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Top Venezolano</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Top de la China Continental</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Top de la China Separatista</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Top Noruego</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">Top Uruguayo</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">Top del 2033</a>
+            </div>
+    
+    
+            <section class="custom-item-comodin">
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                    <h4 id="list-item-1">Top Venezolano</h4>   
+                    <div class="card" style="width: 18rem;">
+                        <img src="../medios/top1.jpg" class="card-img-top" alt="imagen 1">
+                        <div class="card-body bg-custom">
+                        <p class="card-text">PRECIO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores at deleniti assumenda. Est ea molestias exercitationem numquam modi provident quos! Repudiandae vitae sed magni velit consequuntur sint ab, esse praesentium.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ad fuga eaque accusantium dolorem, autem in, animi, vitae explicabo odit a similique esse quia aliquid nam quisquam ex voluptas error?
+                        Esse laudantium doloremque odit facilis, ratione molelestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                        Suscipit, totam! Laboriosam nobis praesentium repudialestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                        Suscipit, totam! Laboriosam nobis praesentium repudialestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                        Suscipit, totam! Laboriosam nobis praesentium repudialestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                        Suscipit, totam! Laboriosam nobis praesentium repudialestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                        Suscipit, totam! Laboriosam nobis praesentium repudiatis, eum vitae quisquam officiis error molestias itaque odit consequuntur ratione maxime vero. Eos, corrupti expedita exercitationem placeat excepturi adipisci quis.</p></p>
+                        </div>
+                    </div>
+                    
+                    <h4 id="list-item-2">Top de la China Continental</h4>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../medios/top2.webp" class="card-img-top" alt="imagen 2">
+                        <div class="card-body bg-custom">
+                        <p class="card-text">PRECIO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores at deleniti assumenda. Est ea molestias exercitationem numquam modi provident quos! Repudiandae vitae sed magni velit consequuntur sint ab, esse praesentium.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ad fuga eaque accusantium dolorem, autem in, animi, vitae explicabo odit a similique esse quia aliquid nam quisquam ex voluptas error?
+                        Esse laudantium doloremque odit facilis, ratione molesae enim veniam, voluptas dolores delectus debitis commodi deleniti suscipit porro quam nam ea aspernatur itaque quasi non cum explicabo ipsa amet eligendi. Voluptate, iusto.
+                        Optio, quam officia illum ab sed ea magnam commodi debitis, eum vitae quisquam officiis error molestias itaque odit consequuntur ratione maxime vero. Eos, corrupti expedita exercitationem placeat excepturi adipisci quis.</p></p>
+                        </div>
+                    </div>
+            </section>
+    
+    
+            <section class="custom-item-comodin">
+                <h4 id="list-item-3">Top de la China Separatista</h4>
+                <div class="card" style="width: 18rem;">
+                    <img src="../medios/top3.jpg" class="card-img-top" alt="imagen 3">
+                    <div class="card-body bg-custom">
+                    <p class="card-text">PRECIO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores at deleniti assumenda. Est ea molestias exercitationem numquam modi provident quos! Repudiandae vitae sed magni velit consequuntur sint ab, esse praesentium.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ad fuga eaque accusantium dolorem, autem in, animi, vitae explicabo odit a similique esse quia aliquid nam quisquam ex voluptas error?
+                    Esse laudantium doloremque odit facilis, ratione molestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                    Suscipit, totam! Laboriosam nobis praesentium repudiandae enim veniam, voluptas dolores delectus debitis commodi deleniti suscipit porro quam nam ea aspernatur itaque quasi non cum explicabo ipsa amet eligendi. Voluptate, iusto.
+                    Optio, quam officia illum ab sed ea magnam commodi debitis, eum vitae quisquam officiis error molestias itaque odit consequuntur ratione maxime vero. Eos, corrupti expedita exercitationem placeat excepturi adipisci quis.</p></p>
+                    </div>
+                </div>
+                <h4 id="list-item-4">Top Noruego</h4>
+                <div class="card" style="width: 18rem;">
+                    <img src="../medios/top4.jpg" class="card-img-top" alt="imagen 4">
+                    <div class="card-body bg-custom">
+                    <p class="card-text">PRECIO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores at deleniti assumenda. Est ea molestias exercitationem numquam modi provident quos! Repudiandae vitae sed magni velit consequuntur sint ab, esse praesentium.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ad fuga eaque accusantium dolorem, autem in, animi, vitae explicabo odit a similique esse quia aliquid nam quisquam ex voluptas error?
+                    Esse laudantium doloremque odit facilis, ratione molestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                    Suscipit, totam! Laboriosam nobis praesentium repudiandae enim veniam, voluptas dolores delectus debitis commodi deleniti suscipit porro quam nam ea aspernatur itaque quasi non cum explicabo ipsa amet eligendi. Voluptate, iusto.
+                    Optio, quam officia illum ab sed ea magnam commodi debitis, eum vitae quisquam officiis error molestias itaque odit consequuntur ratione maxime vero. Eos, corrupti expedita exercitationem placeat excepturi adipisci quis.</p></p>
+                    </div>
+                </div>
+            </section>
+    
+    
+            <section class="custom-item-comodin">
+                <h4 id="list-item-5">Top Uruguayo</h4>
+                <div class="card" style="width: 18rem;">
+                    <img src="../medios/top5.jpg" class="card-img-top" alt="imagen 5">
+                    <div class="card-body bg-custom">
+                    <p class="card-text">PRECIO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores at deleniti assumenda. Est ea molestias exercitationem numquam modi provident quos! Repudiandae vitae sed magni velit consequuntur sint ab, esse praesentium.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ad fuga eaque accusantium dolorem, autem in, animi, vitae explicabo odit a similique esse quia aliquid nam quisquam ex voluptas error?
+                    Esse laudantium doloremque odit facilis, ratione molestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                    Suscipit, totam! Laboriosam nobis praesentium repudiandae enim veniam, voluptas dolores delectus debitis commodi deleniti suscipit porro quam nam ea aspernatur itaque quasi non cum explicabo ipsa amet eligendi. Voluptate, iusto.
+                    Optio, quam officia illum ab sed ea magnam commodi debilestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                    Suscipit, totam! Laboriosam nobis praesentium repudialestiae aut deserunt quidem ipsam itaque, aspernatur dolorem similique expedita soluta veniam voluptatum alias autem suscipit aperiam saepe quasi praesentium ab. Cum, eveniet provident?
+                    Suscipit, totam! Laboriosam nobis praesentium repudiatis, eum vitae quisquam officiis error molestias itaque odit consequuntur ratione maxime vero. Eos, corrupti expedita exercitationem placeat excepturi adipisci quis.</p></p>
+                    </div>
+                </div>
+                <h4 id="list-item-6">Top del 2033</h4>
+                <div class="card" style="width: 18rem;">
+                    <img src="../medios/top6.jpg" class="card-img-top" alt="imagen 6">
+                    <div class="card-body bg-custom">
+                    <p class="card-text">PRECIO <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores at deleniti assumenda. Est ea molestias exercitationem numquam modi provident quos! Repudiandae vitae sed magni velit consequuntur sint ab, esse praesentium.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ad fuga eaque accusantium dolorem, autem in, animi, vitae explicabo odit a similique esse quia aliquid nam quisquam ex voluptas error?
+                    Esse laudantium doloremque odit facilism repudiandae enim veniam, voluptas dolores delectus debitis commodi deleniti suscipit porro quam nam ea aspernatur itaque quasi non cum explicabo ipsa amet eligendi. Voluptate, iusto.
+                    Optio, quam officia illum ab sed ea magnam commodi debitis, eum vitae quisquam officiis error molestias itaque odit consequuntur ratione maxime vero. Eos, corrupti expedita exercitationem placeat excepturi adipisci quis.</p></p>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </nav>
         
     </main>
 
@@ -108,6 +181,8 @@
     </footer>  
 
 
-
+<!-- Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
