@@ -80,9 +80,6 @@ footer{
 
 
 
-
-/*AAAAAAAAAAAAAAAAAAAAAAA*/
-
 .footer-container {
     display: grid;
     grid-template-columns: repeat(4, 2fr) 3fr;
@@ -134,6 +131,8 @@ footer{
 
 
 
+/*media queries*/
+
 @media screen and (max-width: 1360px) {
 
     .footer-container{
@@ -143,6 +142,7 @@ footer{
     }
 }
 
+/* Misc */
 
 .custom-item-comodin{
     margin: 1vw;
@@ -152,5 +152,11 @@ footer{
     background-color:rgb(214, 186, 107) ;
 }
 
+p::selection{
+    background-color: tomato;
+    color: wheat;
+}
 
-
+.carrito{
+    text-decoration:line-through;
+}
