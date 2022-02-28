@@ -1,0 +1,58 @@
+@import "components/header";
+@import "components/footer";
+
+    
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: rgb(214, 186, 107);
+}
+
+
+/*INDEX*/
+
+.index-grid-container{
+    display: grid;
+    grid-row: auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 3%;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+/*ZAPATOS.HTML*/
+
+.zapatos-main-container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 2%;
+    margin-bottom: 40px;
+}
+
+
+/*Misc*/
+.custom-item-comodin{
+    margin: 1vw;
+}
+
+.bg-custom{
+    background-color:rgb(214, 186, 107) ;
+}
+
+p::selection{
+    background-color: tomato;
+    color: wheat;
+}
+
+.carrito{
+    text-decoration:line-through;
+}
