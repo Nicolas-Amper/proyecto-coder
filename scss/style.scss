@@ -1,6 +1,6 @@
 @import "components/header";
 @import "components/footer";
-
+@import "base/extends";
     
 *{
     padding: 0;
@@ -56,3 +56,8 @@ p::selection{
 .carrito{
     text-decoration:line-through;
 }
+
+main{
+    padding-bottom: 30px;
+}
+
