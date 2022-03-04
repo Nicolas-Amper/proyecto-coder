@@ -1,0 +1,16 @@
+
+%centrado-hyv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-contenida{
+    @extend %centrado-hyv;
+    border: 1px solid black;
+  }
+
+h2{
+    @extend %centrado-hyv
+}

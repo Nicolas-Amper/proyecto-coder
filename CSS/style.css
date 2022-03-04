@@ -85,6 +85,16 @@ footer div section {
   justify-content: space-around;
 }
 
+h2, .img-contenida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-contenida {
+  border: 1px solid black;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -133,6 +143,10 @@ p::selection {
 
 .carrito {
   text-decoration: line-through;
+}
+
+main {
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
