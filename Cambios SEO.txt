@@ -1,0 +1,9 @@
+Se Agrego:
+
+-_extends.scss
+
+-h2 
+
+-agregado de titles en index.html
+
+-agregado de etiquetas semanticas 
