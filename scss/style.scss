@@ -1,6 +1,7 @@
 @import "components/header";
 @import "components/footer";
 @import "base/extends";
+@import "components/zapatos-grid";
     
 *{
     padding: 0;
@@ -8,9 +9,7 @@
     
 }
 
-body{
-    background-color: rgb(214, 186, 107);
-}
+
 
 
 /*INDEX*/
@@ -32,6 +31,52 @@ body{
 }
 
 
+@media screen and (max-width:765px){
+    .descripcion-innecesaria{
+        display: none;
+    }
+
+    .align-items-start{
+        
+        .col{
+            width: auto;
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .texto-footer{
+        visibility: hidden;
+    }
+    
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .align-items-start{
+        column-gap: 20ch;
+
+    }
+}
+@media screen and (min-width:1401px) and (max-width:1500px) {
+    .align-items-start{
+        column-gap: 5ch;
+
+    }
+}
+@media screen and (min-width:1501px) and (max-width:1700px) {
+    .align-items-start{
+        column-gap: 4ch;
+
+    }
+}
+
 /*Misc*/
 .custom-item-comodin{
     margin: 1vw;
@@ -42,13 +87,18 @@ body{
 }
 
 .bg-custom2{
-    background-color: tomato;
+    background-color: #ffaaaa;
 }
 
 p::selection{
+    background-color: #ffaaaa;
+}
+
+b::selection{
     background-color: tomato;
     color: wheat;
 }
+
 
 .carrito{
     text-decoration:line-through;
@@ -60,4 +110,14 @@ main{
 
 .bolder{
     font-weight: bolder;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.formulario-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
 }

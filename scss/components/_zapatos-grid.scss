@@ -1,0 +1,23 @@
+
+
+main{
+    #zapatos-grid{
+         
+        div{
+            display: flex;
+            div{
+                display: flex; 
+
+                div{
+                    flex-direction: column;
+                    img{
+                        margin-bottom: 25px;
+                    }
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }           
+}
